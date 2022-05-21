@@ -1,0 +1,251 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+h2{
+    font-size: 2.5rem;
+}
+/* Navbar */
+#navbar{
+    scroll-behavior: smooth;
+    cursor: pointer;
+    display: flex;
+    color: white;
+    padding: 20px 30px;
+    padding-bottom: 20px;
+    background-color: black;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    padding-left: 50px;
+}
+#navbar li a{
+    display: block;
+    text-decoration: none;
+    padding: 0px 15px;
+}
+#navbar li a:hover{
+    color: rgb(231, 221, 221);
+}
+.btn{
+    cursor: pointer;
+    display: block;
+    font-size: 0.8rem;
+    width: 98px;
+    height: 25px;
+    margin-top: 10px;
+    align-items: center;
+    justify-items: center;
+    background-color: gray;
+}
+/* Intro */
+#intro{
+    height: 550px;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 0 0 0px 0px white inset;
+}
+#intro h1{
+    font-size: 3.5rem;
+    text-align: center;
+}
+#intro p{
+    text-align: center;
+}
+#intro::before{
+    background-color: black;
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url('empty.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 692px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:1.89;
+    /* box-shadow: 0 0 8px 8px white inset; */
+}
+/* About restraunt */
+#webest{
+    align-items: center;
+    justify-content: center;
+    height: 656px;
+}
+#webest h1,#webest h4,#webest p{
+    text-align: center;
+    padding: 7px 22px;
+}
+#webest::before{
+    background-color: black;
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url('empty3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 662px;
+    width: 100%;
+    z-index: -1;
+    opacity:1.89;
+}
+/* Menu */
+#menu h2{
+    padding: 20px;
+    text-align: center;   
+}
+#menunav{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#menunav a{
+    font-size: 1.4rem;
+    display: block;
+    width: 100px;
+    text-decoration: none;
+}
+#menunav a:hover{
+    color: gray;
+}
+.ing h3{
+    padding: 20px 22px;
+}
+.ing p{
+    padding: 10px 22px;
+}
+.ing{
+    width: 100%;
+    border: 0.5px solid white;
+    border-radius: 20px;
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#mbook{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#menu::before{
+    background-color: black;
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url('fast food.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    z-index: -1;
+    opacity:14.92;
+}
+/* Specials */
+#specials h2{
+    text-align: center;
+    padding: 22px 0px;
+}
+#specials ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 136px;
+    margin: 30px;
+}
+#specials ul a{
+    text-decoration: none;
+}
+#specials ul li{
+    text-align: center;
+    padding: 13px 22px;
+}
+#wrapper{
+    display: flex;
+}
+#wrapper ul li a:hover{
+    color: gray;
+}
+#spccont{
+    padding: 74px 22px;
+}
+#specials::before{
+    background-color: black;
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url('kabab.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 642px;
+    width: 100%;
+    z-index: -1;
+    opacity:14.92;
+}
+#specials{
+    height: 500px;
+}
+/* Book a Table */
+#book::before{
+    background-color: black;
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url('family.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 642px;
+    width: 100%;
+    z-index: -1;
+    opacity:14.92;
+}
+#book h2{
+    text-align: center;
+    padding: 22px 0px;
+}
+#inputreg{
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 20px 47px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+.reg{
+    margin: 10px 40px;
+    padding: 6px 33px;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.footwrap{
+    display: flex;
+    flex-direction: column;
+}
+.cont{
+    margin: 55px 90px;
+}
+.footwrap a{
+    padding: 7px 0px;
+}
